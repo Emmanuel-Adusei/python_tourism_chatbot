@@ -1,0 +1,363 @@
+{"intents": [
+  {"tags": "greetings", 
+  "patterns": ["hello", "hey", "hi", "good day", "what's up"],
+  "responses":["Hello", "Hey", "Hi how can I assist you today?"]
+  },
+  {"tags":"goodbye",
+  "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "cao", "see ya", "thank you"],
+  "responses": ["Goodbye", "Goodbye and take care"]
+  },
+  {"tags":"hotel",
+  "patterns": ["can you recommend a 5star hotel around", "any good hotel for me", "can i get a list of the hotel around and their ratings"],
+  "responses": ["yes, what is the capital of the region you are currently"]
+  },
+  {"tags":"sites",
+  "patterns": ["can i get a list of the various tourist sites around", "tourist sites", "sites", "places"],
+  "responses": ["Yes, which region do you like to tour at"]
+  },
+  {"tags":"Central Region",
+  "patterns":["I am currently in the central region", "central region"],
+  "responses":["Here are some five(5) interesting tourist sites in the central region: Cape Coast Castle, Elmina Castle, Kankum National Park, Elmina Lagoon and Monkey Forest Resort. Choose any of them and I will assist you the Google Map Location of the site."] 
+  },
+  {"tags":"Cape Coast Castle",
+  "patterns":["Cape Coast Castle"],
+  "responses":["1. Cape Coast Castle :https://bit.ly/3QjouoF"]
+  },
+  {"tags":"Elmina Castle",
+  "patterns":["Elmina Castle"],
+  "responses":["2. Elmina Castle: https://bit.ly/454fW9o"]
+  },
+  {"tags":"Kankum National Park",
+  "patterns":["Kankum National Park"],
+  "responses":["3. Kankum National Park: https://bit.ly/47bB1QX "]
+  },
+  {"tags":"Elmina Lagoon",
+  "patterns":["Elmina Lagoon"],
+  "responses":["4. Elmina Lagoon: https://bit.ly/3q9mpRw"]
+  },
+  {"tags":"Monkey Forest Resort",
+  "patterns":["Monkey Forest Resort"],
+  "responses":["5. Monkey Forest Resort: https://bit.ly/3KjR1XB"]
+  },
+  {"tags": "Ashanti Region",
+  "patterns":["I am currently in ashanti region"],
+  "responses":["Here are some five(5) interesting tourist sites in the ashanti region: Manhyia Palace, Kumasi Fort and Military Museum, Lake Bosomtwe, Kejetia Market and Bonwire Kente Weaving Village. Choose any of them and I will assist you the Google Map Location of the site."]
+  },
+  {"tags":"Manhyia Palace",
+  "patterns":["Manhyia Palace"],
+  "responses":["Manhyia Palace:https://bit.ly/3OAZh80"]
+  },
+  {"tags":"Kumasi Fort and Military Museum",
+  "patterns":["Kumasi Fort and Military Museum"],
+  "responses":["Kumasi Fort and Military Museum: https://bit.ly/47dvTMa"]
+  },
+  {"tags":"Lake Bosomtwe",
+  "patterns":["Lake Bosomtwe"],
+  "responses":["Lake Bosomtwe: https://tinyurl.com/4mjzsdz8"]
+  },
+  {"tags":"Bonwire Kente Weaving Village",
+  "patterns":["Bonwire Kente Weaving Village"],
+"responses":["Bonwire Kente Weaving Village: https://tinyurl.com/3pxnmhfu"]
+  },
+  {"tags":"Kejetia market",
+  "patterns":["Kejetia market"],
+"responses":["Kejetia market: https://tinyurl.com/3r55k7fv"]
+  },
+  {"tags":"Western Region",
+  "patterns":["I am currently in western region"],
+"responses":["Here are some five(5) interesting tourist sites in the western region: Nzulezu stilt village, Fort metal cross, Busua Beach, Ankasa Conservation Area and Pra river. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Nzulezu stilt village",
+"patterns":["Nzulezu stilt village"],
+"responses":["Nzulezu stilt village: https://tinyurl.com/34tsvt48"]
+},
+{"tags":"Fort metal cross",
+"patterns":["Fort metal cross"],
+"responses":["Fort metal cross: https://tinyurl.com/3ekcvhn3"]
+},
+{"tags":"Busua Beach",
+"patterns":["Busua Beach"],
+"responses":["Busua Beach: https://tinyurl.com/4anfhfbz"]
+},
+{"tags":"Ankasa Conservation Area",
+"patterns":["Ankasa Conservation Area"],
+"responses":["Ankasa Conservation Area: https://tinyurl.com/5f5mza43"]
+},
+{"tags":"Pra river",
+"patterns":["Pra river"],
+"responses":["Pra river: https://tinyurl.com/56z377fe"]
+},
+{"tags":"Greater Accra Region",
+"patterns":["I am currently in greater accra region"],
+"responses":["Here are some five(5) interesting tourist sites in the greater accra region: Labadi beach, Kwame Nkrumah Memorial Park, Makola Market, Fort James and National Museum of Ghana. Choose any of them and I will assist you the Google Map Location of the site. "]
+},
+{"tags":"Labadi beach",
+"patterns":["Labadi beach"],
+"responses":["Labadi beach: https://tinyurl.com/52528bns"]
+},
+{"tags":"Kwame Nkrumah Memorial Park",
+"patterns":["Kwame Nkrumah Memorial Park"],
+"responses":["Kwame Nkrumah Memorial Park: https://tinyurl.com/mr28v5ty"]
+},
+{"tags":"Makola Market",
+"patterns":["Makola Market"],
+"responses":["Makola Market: https://tinyurl.com/48m4wtfd"]
+},
+{"tags":"Fort James",
+"patterns":["Fort James"],
+"responses":["Fort James: https://tinyurl.com/4cvu7hzv"]
+},
+{"tags":"National Museum of Ghana",
+"patterns":["National Museum of Ghana"],
+"responses":["National Museum of Ghana: https://tinyurl.com/46esbsph"]
+},
+{"tags":"Eastern Region",
+"patterns":["I am currently in koforidua", "koforidua", "eastern region"],
+"responses":["Here are some five(5) interesting tourist sites in the eastern region: Aburi Botanical Gardens, Akosombo Dam, Tafi atome monkey sanctuary, Boti falls and Shai hills Resource Reserve. Choose any of them and I will assist you the Google Map Location of the site. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Aburi Botanical Gardens",
+"patterns":["Aburi Botanical Gardens"],
+"responses":["Aburi Botanical Gardens: https://tinyurl.com/yc4npj2t"]
+},
+{"tags":"Akosombo Dam",
+"patterns":["Akosombo Dam"],
+"responses":["Akosombo Dam: https://tinyurl.com/3brh2ntu"]
+},
+{"tags":"Tafi atome monkey sanctuary",
+"patterns":["Tafi atome monkey sanctuary"],
+"responses":["Tafi atome monkey sanctuary: https://tinyurl.com/bdz4y6mw"]
+},
+{"tags":"Boti falls",
+"patterns":["Boti falls"],
+"responses":["Boti falls: https://tinyurl.com/2s3tvvut"]
+},
+{"tags":"Shai hills Resource Reserve",
+"patterns":["Shai hills Resource Reserve"],
+"responses":["Shai hills Resource Reserve: https://tinyurl.com/mr2sa38k"]
+},
+{"tags":"Savannah Region",
+"patterns":["I am currently in damango", "damango", "savannah region"],
+"responses":["Here are some five(5) interesting tourist sites in the Savannah region: Mole national park, Larabanga mosque, Wechiau Hippo sanctuary, Salaga mosque and Larabanga Mystic Stone. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Mole national park",
+"patterns":["Mole national park"],
+"responses":["Mole national park: https://tinyurl.com/4rmrxnnk"]
+},
+{"tags":"Larabanga mosque",
+"patterns":["Larabanga mosque"],
+"responses":["Larabanga mosque: https://tinyurl.com/2f3nuxb2"]
+},
+{"tags":"Wechiau Hippo sanctuary",
+"patterns":["Wechiau Hippo sanctuary"],
+"responses":["Wechiau Hippo sanctuary: https://tinyurl.com/2p82hxpn"]
+},
+{"tags":"Salaga mosque",
+"patterns":["Salaga mosque"],
+"responses":["Salaga mosque: https://tinyurl.com/yeyksrp3"]
+},
+{"tags":"Larabanga Mystic Stone",
+"patterns":["Larabanga Mystic Stone"],
+"responses":["Larabanga Mystic Stone: https://tinyurl.com/yckh6zks"]
+},
+{"tags":"Volta Region",
+"patterns":["I am currently in Ho", "Ho", "volta region"],
+"responses":["Here are some five(5) interesting tourist sites in the volta region: Wli waterfalls, Tafi Atome Monkey sanctuary, Mountain Afadjato, Tafi abuipe kente village and Ote Falls. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Wli waterfalls",
+"patterns":["Wli waterfalls"],
+"responses":["Wli waterfalls: https://tinyurl.com/bfkt22sm"]
+},
+{"tags":"Tafi Atome Monkey sanctuary",
+"patterns":["Tafi Atome Monkey sanctuary"],
+"responses":["Tafi Atome Monkey sanctuary: https://tinyurl.com/2s7tdx6u"]
+},
+{"tags":"Mountain Afadjato",
+"patterns":["Mountain Afadjato"],
+"responses":["Mountain Afadjato: https://tinyurl.com/mr282bhu"]
+},
+{"tags":"Tafi abuipe kente village",
+"patterns":["Tafi abuipe kente village"],
+"responses":["Tafi abuipe kente village: https://tinyurl.com/5n699a2k"]
+},
+{"tags":"Ote Falls",
+"patterns":["Ote Falls"],
+"responses":["Ote Falls: https://tinyurl.com/ycyvk52b"]
+},
+{"tags":"Oti Region",
+"patterns":["I am currently in dambai", "oti", "oti region"],
+"responses":["Here some five(5) interesting tourist sites in the Oti Region: Tagbo Falls, Kete Krachi Market, Kyabobo National park, Akaa Falls and Likpe Todome Ancestral Caves. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Tagbo Falls",
+"patterns":["Tagbo Falls"],
+"responses":["Tagbo Falls: https://tinyurl.com/mr282ybd"]
+},
+{"tags":"Kete Krachi Market",
+"patterns":["Kete Krachi Market"],
+"responses":["Kete Krachi Market: https://tinyurl.com/3k7jpsdz"]
+},
+{"tags":"Kyabobo National park",
+"patterns":["Kyabobo National park"],
+"responses":["Kyabobo National park: https://tinyurl.com/zvuz5e9"]
+},
+{"tags":"Akaa Falls",
+"patterns":["Akaa FallsAkaa Falls"],
+"responses":["Akaa Falls: https://tinyurl.com/3ajmhkhv"]
+},
+{"tags":"Likpe Todome Ancestral Caves",
+"patterns":["Likpe Todome Ancestral Caves"],
+"responses":["Likpe Todome Ancestral Caves: https://tinyurl.com/mr3jj99h"]
+},
+{"tags":"Ahafo Region",
+"patterns":["I am currently in goaso", "ahafo", "ahafo region"],
+"responses":["Here some interesting tourist site in the Ahafo Region: Mim buorso and Anwomasu Lake. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Mim buorso",
+"patterns":["Mim buorso"],
+"responses":["Mim buorso: https://tinyurl.com/mrx9rtn9"]
+},
+{"tags":"Anwomasu Lake",
+"patterns":["Anwomasu Lake"],
+"responses":["Anwomasu Lake: https://tinyurl.com/mr3s49ne"]
+},
+{"tags":"Western North Region",
+"patterns":["I am currently in sefwi wiawso", "western north region", "western north"],
+"responses":["Here some interesting tourist site in the Western North Region: Bia Game Production Reserve, Ankasa Game Reserve & Nini-Suhien National Park,  Krokosue Forest Reserve, Bonzain Waterfalls and Royal Abakomahene Palace. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Bia Game Production Reserve",
+"patterns":["Bia Game Production Reserve"],
+"responses":["Bia Game Production Reserve: https://tinyurl.com/zxud5989"]
+},
+{"tags":"Ankasa Game Reserve & Nini-Suhien National Park",
+"patterns":["Ankasa Game Reserve & Nini-Suhien National Park"],
+"responses":["Ankasa Game Reserve & Nini-Suhien National Park: https://tinyurl.com/4vtcuvec"]
+},
+{"tags":" Krokosue Forest Reserve",
+"patterns":[" Krokosue Forest Reserve"],
+"responses":[" Krokosue Forest Reserve: https://tinyurl.com/feythsak"]
+},
+{"tags":"Bonzain Waterfalls",
+"patterns":["Bonzain Waterfalls"],
+"responses":["Bonzain Waterfalls: https://tinyurl.com/mw7atmfw"]
+},
+{"tags":"Royal Abakomahene Palace",
+"patterns":["Royal Abakomahene Palace"],
+"responses":["Royal Abakomahene Palace: https://tinyurl.com/48ujspkh"]
+},
+{"tags":"Bono East Region",
+"patterns":["I am currently in techiman", "bono east", "bono east region"],
+"responses":["Here some interesting tourist site in the Bono East Region: Buoyem Sacred Grove, Kintampo Falls, Sunyani Central Market, Boabeng Fiema Monkey Sanctuary and Fuller Falls. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Buoyem Sacred Grove",
+"patterns":["Buoyem Sacred Grove"],
+"responses":["Buoyem Sacred Grove: https://tinyurl.com/yfkzkbxa"]
+},
+{"tags":"Kintampo Falls",
+"patterns":["Kintampo Falls"],
+"responses":["Kintampo Falls: https://tinyurl.com/4jsczjub"]
+},
+{"tags":"Sunyani Central Market",
+"patterns":["Sunyani Central Market"],
+"responses":["Sunyani Central Market: https://tinyurl.com/bd342udw"]
+},
+{"tags":"Boabeng Fiema Monkey Sanctuary",
+"patterns":["Boabeng Fiema Monkey Sanctuary"],
+"responses":["Boabeng Fiema Monkey Sanctuary: https://tinyurl.com/8uszcfwe"]
+},
+{"tags":"Fuller Falls",
+"patterns":["Fuller Falls"],
+"responses":["Fuller Falls: https://tinyurl.com/mwc5ckyx"]
+},
+{"tags":"North East Region",
+"patterns":["I am currently in Nalerigu", "north east", "north east region"],
+"responses":["Here some interesting tourist site in the North East Region: Gambaga Enscarpment, Gingama Rock Art site, Nakpanduri Fall and Gambaga market. Choose any of them and I will assist you the Google Map Location of the site."]
+},
+{"tags":"Gambaga Enscarpment",
+"patterns":["Gambaga Enscarpment"],
+"responses":["Gambaga Enscarpment: https://tinyurl.com/3fvambyr"]
+},
+{"tags":"Gingama Rock Art site",
+"patterns":["Gingama Rock Art site"],
+"responses":["Gingama Rock Art site: https://tinyurl.com/s79fhvvx"]
+},
+{"tags":"Nakpanduri Fall",
+"patterns":["Nakpanduri Fall"],
+"responses":["Nakpanduri Fall: https://tinyurl.com/yefzykkv"]
+},
+{"tags":"Gambaga market",
+"patterns":["Gambaga market"],
+"responses":["Gambaga market: https://tinyurl.com/4922af34"]
+},
+{"tags":"Ashanti Region Hotels",
+"patterns":["I am currently in kumasi", "kumasi"],
+"responses":["Here are some five(5) highly rated hotels in the Ashanti Region: Golden Gate Hotel, Asantewaa Premier Hotel, Lake Bosomtwe Paradise Resort, Oak Plaza Suites and Lancaster Hotel. Choose any of them and I will assist you the Google Map Location of the hotel."]
+},
+{"tags":"Golden Gate Hotel",
+"patterns":["Golden Gate Hotel"],
+"responses":["Golden Gate Hotel: https://bit.ly/47JbCi1"]
+},
+{"tags":"Asantewaa Premier Hotel",
+"patterns":["Asantewaa Premier Hotel"],
+"responses":["Asantewaa Premier Hotel: https://bit.ly/3EgWDOB"]
+},
+{"tags":"Lake Bosomtwe Paradise Resort",
+"patterns":["Lake Bosomtwe Paradise Resort"],
+"responses":["Lake Bosomtwe Paradise Resort: https://bit.ly/3PbNEF1"]
+},
+{"tags":"Oak Plaza Suites",
+"patterns":["Oak Plaza Suites"],
+"responses":["Oak Plaza Suites: https://bit.ly/3ORSHZO"]
+},
+{"tags":"Lancaster Hotel",
+"patterns":["Lancaster Hotel"],
+"responses":["Lancaster Hotel: https://bit.ly/3ORpEFy"]
+},
+{"tags":"Greater Accra Region Hotels",
+"patterns":["I am currently in accra", "accra"],
+"responses":["Here are some five(5) highly rated hotels in the Greater Accra Region: Alisa Hotel Tema, Kempinski Hotel Gold Coast City, Labadi Beach Hotel, Hill View Hotel and Golden Tulip Accra. Choose any of them and I will assist you the Google Map Location of the hotel."]
+},
+{"tags":"Alisa Hotel Tema",
+"patterns":["Alisa Hotel Tema"],
+"responses":["Alisa Hotel Tema: https://bit.ly/45lQ61j"]
+},
+{"tags":"Kempinski Hotel Gold Coast City",
+"patterns":["Kempinski Hotel Gold Coast City"],
+"responses":["Kempinski Hotel Gold Coast City: https://bit.ly/47LGVsj"]
+},
+{"tags":"Labadi Beach Hotel",
+"patterns":["Labadi Beach Hotel"],
+"responses":["Labadi Beach Hotel: https://bit.ly/3QMqu9k"]
+},
+{"tags":"Hill View Hotel",
+"patterns":["Hill View Hotel"],
+"responses":["Hill View Hotel: https://bit.ly/3E87OJJ"]
+},
+{"tags":"Lancaster Accra",
+"patterns":["Lancaster Accra"],
+"responses":["Lancaster Accra: https://bit.ly/3sjjPsS"]
+},
+{"tags":"Central Region Hotels",
+"patterns":["I am currently in cape coast", "Cape coast"],
+"responses":["Here are some five(5) highly rated hotels in the Central Region: Lemon Beach Resort, Coconut Grove Beach Resort, Golden Hill Parker Hotel, Marrets International Hotel and The Big Blue Resort & Spa. Choose any of them and I will assist you the Google Map Location of the hotel."]
+},
+{"tags":"Lemon Beach Resort",
+"patterns":["Lemon Beach Resort"],
+"responses":["Lemon Beach Resort: https://tinyurl.com/e7b7xkx4"]
+},
+{"tags":"Coconut Grove Beach Resort",
+"patterns":["Coconut Grove Beach Resort"],
+"responses":["Coconut Grove Beach Resort: https://tinyurl.com/4f8xppn9"]
+},
+{"tags":"Golden Hill Parker Hotel",
+"patterns":["Golden Hill Parker Hotel"],
+"responses":["Golden Hill Parker Hotel: https://tinyurl.com/2ser7w45"]
+},
+{"tags":"Marrets International Hotel",
+"patterns":["Marrets International Hotel"],
+"responses":["Marrets International Hotel: https://tinyurl.com/zdajmvur"]
+},
+{"tags":"The Big Blue Resort & Spa",
+"patterns":["The Big Blue Resort & Spa"],
+"responses":["The Big Blue Resort & Spa: https://tinyurl.com/44w4m238"]
+}
+] 
+} 
